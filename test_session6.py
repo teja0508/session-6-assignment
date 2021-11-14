@@ -47,7 +47,7 @@ def test_readme_file_for_formatting():
     assert content.count("#") >= 5, 'proper formatting of README is required'
 
 
-def test_session7_check_doc_string_len():
+def test_session6_check_doc_string_len():
     #check more then 50 char
     f1 = session6.check_doc_string_len(session6.my_fibonacci)
     assert f1()==True, 'just do by character by character count'
